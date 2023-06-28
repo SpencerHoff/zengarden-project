@@ -1,0 +1,260 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+/*font-family: 'DotGothic16', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Shadows+Into+Light&family=Share+Tech+Mono&display=swap');
+/*font-family: 'Share Tech Mono', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Shadows+Into+Light&display=swap');
+/*font-family: 'Shadows Into Light', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Indie+Flower&family=Shadows+Into+Light&family=Share+Tech+Mono&display=swap');
+/*font-family: 'Indie Flower', cursive;*/
+
+/*Place any google fonts here*/
+
+/*CSS Reset - This is wipes out default browser settings that could cause you issues.*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}
+/*Box-Sizing: This will help you with your box-model math*/
+*, *:before, *:after {box-sizing: border-box;}
+/*Links - I took off that awful underline and changed the link color.*/
+a {text-decoration: none; color:pink;}
+/*Non Bold Headings*/
+h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+/*Things I added do not count toward your line limit.*/
+/*	
+	Your Zen Garden CSS
+	This is the CSS for your zen garden.
+*/
+
+
+body {
+	font-family: 'Indie Flower', cursive;
+	
+	line-height: 1.5em;
+	font-size: 110%;
+	letter-spacing: 0.015em;
+	background-image:url("../img/4metal_texture_big_100405 copy.png");
+	
+	
+	
+	/*background-size:30% 30%;
+	background-repeat:repeat;*/
+	
+	
+	
+	/*background-image:url("../img/mock up plan2.png");
+	background-size:100%;*/
+}
+/*DO NOT put heights and widths in the body*/
+/*What can go in body: colors, fonts, backgrounds*/
+
+
+/*Study the HTML and pull tags, ids, and classes to use. I have a couple html selectors below to get you started. You will need to call more than this for your designs.*/
+a {
+	color:saddlebrown;
+	
+}
+
+p {margin: 10px 0 10px 0;
+line-height: 1.3em;}
+
+h1 {
+	font-family: 'DotGothic16', sans-serif;
+	font-size: 280%;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	color:#ABF5A1;
+	width: 700px;
+	margin: 0 auto;
+}
+
+h2 {
+	
+	font-family: 'DotGothic16', sans-serif;
+	color:#ABF5A1;
+	width: 700px;
+	margin: 0 auto;
+	font-size: 130%;
+	padding-bottom: 10px;
+	letter-spacing: 0.015em;
+}
+
+h3 {
+	font-size:150%;
+	border-bottom:#000000 solid;
+	margin: 0 auto;
+	
+}
+
+ul {}
+
+li {}
+
+/*level 1*/
+.page-wrapper{
+	width:1024px;
+	margin: 0 auto;
+	background-image:url("../img/mock up plan7.png");
+	background-size:100%, 400px;
+	/*background-repeat: repeat, no-repeat;
+	#7F573C*/
+	border:medium solid #25120B;
+	position: relative;
+	z-index:6;
+	
+}
+
+.extra1 {
+	background-image:url("../img/PngItem_1677663.png");
+	background-size: 100%;
+	
+	width:300px;
+	height:300px;
+	
+	animation: rotate 8s infinite linear;
+	position:absolute;
+	top:350px;
+	left:63%;
+	opacity: 60%;
+	
+}
+.extra3 {
+	background-image:url("../img/PngItem_1677663.png");
+	background-size: 100%;
+	
+	width:300px;
+	height:300px;
+	
+	animation: rotate 8s infinite linear;
+	position:absolute;
+	top:570px;
+	left:67%;
+	opacity: 60%;
+	
+}
+.extra2 {
+	background-image:url("../img/PngItem_1677663.png");
+	background-size: 100%;
+	
+	width:300px;
+	height:300px;
+	opacity: 60%;
+	animation: rotate 6s infinite linear;
+	position:absolute;
+	top:1800px;
+	left:38%;
+}
+
+@keyframes rotate {
+	100% { transform: rotate(360deg); } 
+}
+@keyframes spin {
+	100% { transform: rotate(-360deg); } 
+}
+
+
+
+/*LEVEL 2*/
+.intro{
+	
+	width: 800px;
+	margin: 0 auto;
+	font-size: 100%;
+}
+
+.main{}
+
+.sidebar{
+	
+}
+
+/*LEVEL 3*/
+header{}
+.summary{
+	font-family: 'DotGothic16', sans-serif;
+	color:#ABF5A1;
+	width:700px;
+	margin: 0 auto;
+	font-size: 120%
+}
+.summary a{
+	color:springgreen;
+}
+.preamble{
+	
+	width: 780px;
+	margin: 0 auto;
+	padding-top:205px;
+	padding-left:15px;
+}
+
+.explanation{
+	width: 780px;
+	margin: 0 auto;
+	padding-left:15px;
+}
+.participation{
+	width: 780px;
+	margin: 0 auto;
+	padding-left:15px;
+}
+.benefits{
+	width: 780px;
+	margin: 0 auto;
+	padding-left:15px;
+}
+.requirements{
+	width: 780px;
+	margin: 0 auto;
+	padding-left:15px;
+}
+footer{
+	width: 780px;
+	margin: 0 auto;
+	padding-left:15px;
+}
+
+.wrapper {
+	padding-top: 140px;
+	
+	display: flex;
+	width:700px;
+	margin: 0 auto;
+	font-size: 90%;
+	color:#ABF5A1;
+	padding-left:10px;
+}
+.wrapper h3{
+	font-size:110%;
+	border: none;
+	
+	
+}
+.wrapper a{
+	color:springgreen;
+}
+.design-selection{
+	width: 45%;
+	margin: 0 auto;
+	padding-left:10px;
+	font-family: 'DotGothic16', sans-serif;
+	padding-bottom:70px;
+}
+
+.design-archives{
+	width: 25%;
+	margin: 0 auto;
+	padding-left:10px;
+	font-family: 'DotGothic16', sans-serif;
+	
+}
+
+.zen-resources{
+	width: 30%;
+	margin: 0 auto;
+	padding-left:10px;
+	font-family: 'DotGothic16', sans-serif;
+	
+}
+
+
+
